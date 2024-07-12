@@ -1,0 +1,22 @@
+{
+  "name": "cypressdemodabeer",
+  "version": "1.0.0",
+  "description": "poc for cypress",
+  "main": "index.js",
+  "scripts": {
+    "package1": "npx cypress run --record --key 5c7cdb0f-b08e-48c3-b154-fcea4b7b41db --spec cypress/e2e/demotest/package1/* --browser chrome --headed",
+    "package3": "npx cypress run --spec cypress/e2e/demotest/package3/* --browser chrome --headed", 
+    "package4": "npx cypress run --record --key 5c7cdb0f-b08e-48c3-b154-fcea4b7b41db --spec cypress/e2e/demotest/newCommands/* --browser chrome --headed"
+  },
+  "author": "dabeer",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0"
+  }
+}

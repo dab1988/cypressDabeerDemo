@@ -1,0 +1,34 @@
+[
+  {
+  "flag":"Y", 
+  "id": "Job",
+  "name": "duo",
+  "email": "omIPOIUl0c@example.com",
+  "Password":"resw123",
+  "conPass":"resw123"
+},
+{
+  "flag":"N", 
+  "id": "putiy",
+  "name": "dab",
+  "email": "at9yuc@example.com",
+  "Password":"resw123",
+  "conPass":"resw123"
+},
+{
+  "flag":"N",
+  "id": "Tripo",
+  "name": "Jane",
+  "email": "pom6c@example.com",
+  "Password":"resw123",
+  "conPass":"resw123"
+},
+{
+  "flag":"N", 
+  "id": "qwerty",
+  "name": "hai",
+  "email": "qaz8wsx@example.com",
+  "Password":"resw123",
+  "conPass":"resw123"
+}
+]
