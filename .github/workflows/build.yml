@@ -1,7 +1,7 @@
 name: End-to-end tests
 on: push
 jobs:
-  install:
+  test:
    
     runs-on: ubuntu-22.04
     steps:

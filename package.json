@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "package1": "npx cypress run --record --key 5c7cdb0f-b08e-48c3-b154-fcea4b7b41db --spec cypress/e2e/demotest/package1/* --browser chrome --headed",
-    "package3": "npx cypress run --spec cypress/e2e/demotest/package3/* --browser chrome --headed", 
+    "package3": "npx cypress run --record --key 5c7cdb0f-b08e-48c3-b154-fcea4b7b41db --spec cypress/e2e/demotest/* --browser chrome --headed", 
     "package4": "npx cypress run --record --key 5c7cdb0f-b08e-48c3-b154-fcea4b7b41db --spec cypress/e2e/demotest/newCommands/* --browser chrome --headed"
   },
   "author": "dabeer",

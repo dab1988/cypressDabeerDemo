@@ -27,5 +27,5 @@ jobs:
           group: 'Actions example'
           browser: chrome
           headed: true
-          build: npm run package1
+          build: npm run package3
         
