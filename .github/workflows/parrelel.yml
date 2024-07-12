@@ -1,4 +1,4 @@
-name: End-to-end tests
+name: Execute Parellel Testing
 on: push
 jobs:
  package1:
