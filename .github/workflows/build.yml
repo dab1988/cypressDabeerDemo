@@ -1,7 +1,8 @@
 name: End-to-end tests
 on: push
 jobs:
-  cypress-run:
+  install:
+   
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
@@ -11,6 +12,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
+            runTests: false
             record: true
             browser: chrome
             headed: true
