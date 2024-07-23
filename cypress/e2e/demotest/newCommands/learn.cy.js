@@ -28,7 +28,7 @@ describe('new command',function()
             cy.visit('https://demokart.com/')
             cy.get('.navigation').children().should('have.length','5');
            // //cy.get('.navigation').children('li').filter(':contains("Become a Seller")').click();
-            //cy.go('back')
+            //cy.go('back')//
             cy.get('.navigation').children('li').each(($el,index,$list)=>
                 {
                    // cy.log($list);
