@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"ed23e834fde40cf88eab635e9870a6fc","name":"Handle Alert","statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"bdad296937ca885c2ac36344a0778899","name":"sample","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

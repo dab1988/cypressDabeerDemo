@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721754443784' stop='1721754500298'>
+    <name>User Registration</name>
+    <title>User Registration</title>
+    <test-cases>
+        <test-case start='1721754443785' status='failed' stop='1721754500219'>
+            <name>Retailer Registration</name>
+            <title>Retailer Registration</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 25000ms: expected 'https://euroka-test.apps.au-1a.mendixcloud.com/' to include '/p/login'
+                
+                Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `User Registration`</message>
+                <stack-trace>AssertionError: Timed out retrying after 25000ms: expected 'https://euroka-test.apps.au-1a.mendixcloud.com/' to include '/p/login'
+                
+                Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `User Registration`
+                    at Context.eval (webpack://cypressdemodabeer/./cypress/e2e/demotest/package3/Registration.cy.js:8:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

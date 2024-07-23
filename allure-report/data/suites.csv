@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed Jul 24 02:29:26 AEST 2024","Wed Jul 24 02:31:53 AEST 2024","146689","","Handle Alert","","Handle Alert","Java Script Pop Up Handle","Java Script Pop Up Handle",""
+"passed","Wed Jul 24 02:31:57 AEST 2024","Wed Jul 24 02:31:58 AEST 2024","521","","sample","","sample","aliasandhen","aliasandhen",""
